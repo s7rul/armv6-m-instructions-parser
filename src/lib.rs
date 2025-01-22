@@ -15,11 +15,11 @@
 //! ```
 
 pub mod conditions;
-pub mod instructons;
+pub mod instructions;
 pub mod registers;
 
 use conditions::Condition;
-use instructons::*;
+use instructions::*;
 use registers::*;
 use tracing::debug;
 
